@@ -78,7 +78,7 @@ ip-10-0-21-183.ap-southeast-2.compute.internal   Ready    <none>   5m10s   v1.14
 ## (In progress) Terraform Module Usage
 Include this repository as a module in your existing terraform code:
 ```
-module "eks" {
+module "eks-ec2" {
   source = "git::https://github.com/jrdalino/aws-eks-ec2-terraform.git?ref=master"
 }
 ```
